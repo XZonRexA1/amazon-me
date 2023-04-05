@@ -9,3 +9,20 @@
   gap: 45px;
   margin: 50px;
 }
+
+.link-style {
+  text-decoration: none;
+}
+
+.btn-style {
+  background-color: #ff9900;
+  width: 90%;
+  height: 56px;
+  margin: 10px auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+  align-items: center;
+  text-decoration: none;
+}
