@@ -1,6 +1,7 @@
 import React from "react";
 import "./Cart.css";
 const Cart = ({ cart }) => {
+  console.log(cart)
   // calculating total price
   let totalPrice = 0;
   let quantity = 0;
@@ -15,7 +16,7 @@ const Cart = ({ cart }) => {
   // calculating total shipping (Different methods)
   const totalShipping = cart
     .map((cart) => cart.shipping)
-    .reduce((acc, cur) => acc + cur, 0);
+    .reduce((acc, cur) => acc + cur, 0);  
 
   // calculating total tax
   const tax = (totalPrice * 7) / 100;
